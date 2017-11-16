@@ -1,0 +1,15 @@
+#!/bin/bash
+echo "Enter your paimant"
+read a
+if [[ $a -lt 5000 ]]
+then
+	a="no tax"
+else
+	if [[ $a -gt 30000 ]]
+	then
+		let a=a/5
+	else
+		let a=a/10
+	fi
+fi	
+echo $a

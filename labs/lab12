@@ -1,0 +1,6 @@
+#!/bin/bash
+
+echo "Enter mathematical expression:"
+read a
+let a=$a
+echo $a

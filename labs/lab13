@@ -1,0 +1,12 @@
+#!/bin/bash
+a="Life is like a snowball. The important thing is finding wet snow and a really long hill."
+echo "$a"
+a=${a/snow/foot}
+echo "1.$a"
+a=${a/snow" "/}
+echo "2.$a"
+a=${a/"find"/gett}
+echo "4.$a"
+a=${a%wet*}
+echo "5.$a"
+
