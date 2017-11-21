@@ -1,5 +1,6 @@
 #!/bin/bash
 # fileinfo.sh
-FILE=/etc/resolv.conf
+#FILE=/etc/resolv.con
+FILE=$(locate "resolv.con")
 echo $FILE
 grep -c "nameserver" "$FILE"
