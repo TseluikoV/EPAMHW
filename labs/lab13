@@ -7,6 +7,6 @@ a=${a/snow" "/}
 echo "2.$a"
 a=${a/"find"/gett}
 echo "4.$a"
-a=${a%wet*}
+a=${a% and*}
 echo "5.$a"
 

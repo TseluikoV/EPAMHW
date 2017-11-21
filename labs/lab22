@@ -1,0 +1,5 @@
+#!/bin/bash
+# fileinfo.sh
+FILE=/etc/resolv.conf
+echo $FILE
+grep -c "nameserver" "$FILE"

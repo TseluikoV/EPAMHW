@@ -1,0 +1,4 @@
+#!/bin/bash
+
+pwd=$(pwd)
+find $pwd -print | sed -e "s;$pwd;\.;g;s;[^/]*\/;|__;g;s__|; |:g"
